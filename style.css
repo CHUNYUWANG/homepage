@@ -59,8 +59,27 @@ a:hover {
 }
 
 .publications-list,
-.blog-list {
+.blog-list,
+.news-list {
     list-style: none;
+}
+
+.news-list li {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: baseline;
+    line-height: 1.6;
+}
+
+.news-list .date {
+    flex: 0 0 5.5rem;
+    font-weight: 600;
+    color: #222;
+    white-space: nowrap;
+}
+
+.news-list .news-content {
+    flex: 1;
 }
 
 .publications-list li {
@@ -112,5 +131,9 @@ footer {
     .blog-list .date {
         margin-left: 0;
         margin-top: 0.2rem;
+    }
+
+    .news-list .date {
+        flex: 0 0 5rem;
     }
 }
