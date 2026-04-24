@@ -38,6 +38,20 @@ section {
     margin-bottom: 2.5rem;
 }
 
+.hiring-banner {
+    background-color: #fff8e1;
+    border-left: 4px solid #f59e0b;
+    border-radius: 4px;
+    padding: 0.9rem 1.1rem;
+    margin-bottom: 2.5rem;
+    font-size: 0.98rem;
+    line-height: 1.55;
+}
+
+.hiring-banner strong {
+    color: #92400e;
+}
+
 h2 {
     font-size: 1.3rem;
     font-weight: 600;
